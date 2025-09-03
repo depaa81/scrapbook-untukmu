@@ -57,9 +57,15 @@
   </div>
 
   <div class="controls">
-    <button onclick="prevPage()">⬅ Sebelumnya</button>
-    <button onclick="nextPage()">Berikutnya ➡</button>
-  </div>
+  <button onclick="prevPage()">⬅ Sebelumnya</button>
+  <button onclick="nextPage()">Berikutnya ➡</button>
+  <button onclick="toggleMusic()">🎵 Putar Musik</button>
+</div>
+
+<audio id="bg-music" loop>
+  <source src="music/lagu.mp3" type="audio/mpeg">
+</audio>
+
 
   <script src="script.js"></script>
 </body>
