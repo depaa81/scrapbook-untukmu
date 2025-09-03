@@ -23,3 +23,15 @@ function prevPage() {
 
 // tampilkan halaman pertama
 showPage(currentPage);
+const music = document.getElementById("bg-music");
+let isPlaying = false;
+
+function toggleMusic() {
+  if (isPlaying) {
+    music.pause();
+    isPlaying = false;
+  } else {
+    music.play();
+    isPlaying = true;
+  }
+}
